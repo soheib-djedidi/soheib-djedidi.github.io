@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Freelancer - DJEDIDI Soheib Theme</title>
+        <meta name="description" content="Portfolio de Soheib DJEDIDI, étudiant en BTS SIO SISR à la recherche d'un stage en administration systèmes et réseaux." />
+        <meta name="author" content="Soheib DJEDIDI" />
+        <title>Portfolio - Soheib DJEDIDI</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -28,6 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Compétences</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">À propos</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     </ul>
@@ -48,87 +49,212 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Étudiant en BTS SIO option SISR – Stage de 6 semaines du 18 mai au 26 juin 2026 – passionné par les systèmes et réseaux. – Option SISR – Stage du 18 mai au 26 juin 2026</p>
+                <p class="masthead-subheading font-weight-light mb-4">
+                    <span class="d-block">Étudiant en BTS SIO option SISR, passionné par l'administration des systèmes et réseaux.</span>
+                    <span class="d-block">À la recherche d'un stage du 18 mai au 26 juin 2026 &mdash; basé à Montereau-Fault-Yonne, mobile en Île-de-France et en télétravail.</span>
+                </p>
+                <div class="text-center">
+                    <a class="btn btn-xl btn-outline-light" href="#contact">Discutons de votre projet</a>
+                </div>
             </div>
         </header>
         <section class="page-section portfolio" id="portfolio">
-<div class="container">
-<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Mes projets</h2>
-<div class="divider-custom">
-<div class="divider-custom-line"></div>
-<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-<div class="divider-custom-line"></div>
-</div>
-<div class="row justify-content-center">
-<div class="col-md-6 col-lg-4 mb-5">
-<div class="portfolio-item mx-auto">
-<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-</div>
-<div class="text-center">
-<h4>Boîte murale avec accès sécurisé</h4>
-<p class="mb-0">Mise en place d'une infrastructure réseau avec câblage, sécurisation physique et tests de connectivité.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="page-section bg-primary text-white mb-0" id="about">
-<div class="container">
-<h2 class="page-section-heading text-center text-uppercase text-white">Compétences</h2>
-<div class="divider-custom divider-light">
-<div class="divider-custom-line"></div>
-<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-<div class="divider-custom-line"></div>
-</div>
-<div class="row">
-<div class="col-lg-12 ms-auto"><p class="lead">Administration Windows & Linux, VLAN et routage de base, Active Directory, virtualisation, PowerShell de base, sécurité réseau (pare-feu, sauvegardes).</p></div>
-</div>
-</div>
-</section>
-<section class="page-section" id="contact">
-<div class="container">
-<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact</h2>
-<div class="divider-custom">
-<div class="divider-custom-line"></div>
-<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-<div class="divider-custom-line"></div>
-</div>
-<div class="text-center">
-<p>Email : <a href="mailto:soheib.djedidi28@gmail.com">soheib.djedidi28@gmail.com</a></p>
-<p>Téléphone : 06 xx xx xx xx</p>
-<p><a href="AP-SIO11-DJEDIDI-LettreDeMotivation.pdf" target="_blank" class="btn btn-light btn-xl">Télécharger mon CV</a></p>
-</div>
-</div>
-</section>
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Mes projets</h2>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body text-center px-4 py-5">
+                                <div class="portfolio-icon text-primary mb-3"><i class="fas fa-clinic-medical fa-2x"></i></div>
+                                <h4 class="card-title text-uppercase mb-3">Boîte murale médicale sécurisée</h4>
+                                <p class="card-text text-muted mb-4">Projet de terminale STI2D présenté au grand oral : conception d'un prototype de boîte murale pour médicaments avec double accès (clavier à code et badge NFC), définition de la logique de contrôle et tests d'usage.</p>
+                                <div class="d-flex flex-wrap gap-2 justify-content-center">
+                                    <span class="badge bg-secondary text-uppercase">NFC</span>
+                                    <span class="badge bg-secondary text-uppercase">Automatisation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body text-center px-4 py-5">
+                                <div class="portfolio-icon text-primary mb-3"><i class="fas fa-robot fa-2x"></i></div>
+                                <h4 class="card-title text-uppercase mb-3">Robot sumo Arduino</h4>
+                                <p class="card-text text-muted mb-4">Développement de la motorisation et du contrôle d'un robot autonome pour compétitions sumo&nbsp;: pilotage des moteurs via Arduino, tests de capteurs de détection et calibration de la stratégie.</p>
+                                <div class="d-flex flex-wrap gap-2 justify-content-center">
+                                    <span class="badge bg-secondary text-uppercase">Arduino</span>
+                                    <span class="badge bg-secondary text-uppercase">Robotique</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body text-center px-4 py-5">
+                                <div class="portfolio-icon text-primary mb-3"><i class="fas fa-gamepad fa-2x"></i></div>
+                                <h4 class="card-title text-uppercase mb-3">Jeu en langage C</h4>
+                                <p class="card-text text-muted mb-4">Programmation d'un jeu en console pour consolider les bases en algorithmique&nbsp;: gestion des entrées utilisateurs, boucles de jeu, structures conditionnelles et affichage dynamique.</p>
+                                <div class="d-flex flex-wrap gap-2 justify-content-center">
+                                    <span class="badge bg-secondary text-uppercase">C</span>
+                                    <span class="badge bg-secondary text-uppercase">Algorithmique</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section bg-primary text-white" id="skills">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-white">Compétences</h2>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="skill-card h-100">
+                            <h3 class="h4 text-uppercase mb-3">Systèmes &amp; réseaux</h3>
+                            <ul class="skill-list">
+                                <li>Administration Windows et Linux, gestion des comptes et des droits.</li>
+                                <li>Segmentation VLAN et routage de base pour sécuriser les flux.</li>
+                                <li>Active Directory, virtualisation et scripts PowerShell de base.</li>
+                                <li>Surveillance et sécurisation&nbsp;: pare-feu, sauvegardes, bonnes pratiques.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="skill-card h-100">
+                            <h3 class="h4 text-uppercase mb-3">Développement &amp; scripts</h3>
+                            <ul class="skill-list">
+                                <li>Développement d'applications et optimisation dans le cadre du BTS SIO.</li>
+                                <li>Programmation en Python et en C pour automatiser et prototyper.</li>
+                                <li>Intégration web avec HTML &amp; CSS, conception d'interfaces claires.</li>
+                                <li>Modélisation et tests avec MATLAB pour les projets techniques.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="skill-card h-100">
+                            <h3 class="h4 text-uppercase mb-3">Outils &amp; environnements</h3>
+                            <ul class="skill-list">
+                                <li>Visual Studio Code pour le développement multi-langages.</li>
+                                <li>Suite Microsoft Office&nbsp;: Word, Excel et PowerPoint.</li>
+                                <li>Inventor Autodesk pour la conception 3D.</li>
+                                <li>Linux et postes virtualisés pour tester des architectures.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="skill-card h-100">
+                            <h3 class="h4 text-uppercase mb-3">Langues &amp; atouts</h3>
+                            <ul class="skill-list">
+                                <li>Français&nbsp;: langue maternelle.</li>
+                                <li>Anglais&nbsp;: niveau B1.</li>
+                                <li>Qualités humaines&nbsp;: curiosité, ponctualité, sérieux.</li>
+                                <li>Travail en équipe et sens du service lors des projets collectifs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section" id="about">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">À propos</h2>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <p class="lead text-center">Étudiant en première année de BTS Services Informatiques aux Organisations option SISR au lycée polyvalent Léonard de Vinci à Melun. Après un baccalauréat STI2D mention assez bien (spécialité Énergie et Environnement), je souhaite mettre mon sérieux et ma curiosité au service d'une équipe IT pour renforcer mes compétences en administration systèmes et réseaux.</p>
+                        <p class="lead text-center">Originaire de Montereau-Fault-Yonne, je suis disponible pour un stage de six semaines du 18 mai au 26 juin 2026, en présentiel en Île-de-France ou en télétravail.</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body text-center py-4 px-3">
+                                <i class="fas fa-graduation-cap text-primary fa-2x mb-3"></i>
+                                <h3 class="h5 text-uppercase">Formation</h3>
+                                <p class="mb-0 text-muted">BTS SIO SISR (2024-2026) après un bac STI2D spécialité Énergie &amp; Environnement, mention assez bien.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body text-center py-4 px-3">
+                                <i class="fas fa-user-shield text-primary fa-2x mb-3"></i>
+                                <h3 class="h5 text-uppercase">Objectif</h3>
+                                <p class="mb-0 text-muted">Participer à des missions d'administration systèmes et réseaux, de gestion de parc ou de sécurisation d'infrastructures.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body text-center py-4 px-3">
+                                <i class="fas fa-people-arrows text-primary fa-2x mb-3"></i>
+                                <h3 class="h5 text-uppercase">Valeurs</h3>
+                                <p class="mb-0 text-muted">Esprit d'équipe, sens du service et envie d'apprendre en continu pour proposer des solutions fiables.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section" id="contact">
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact</h2>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="text-center">
+                    <p>Email : <a href="mailto:soheib.djedidi28@gmail.com">soheib.djedidi28@gmail.com</a></p>
+                    <p>Téléphone : 06&nbsp;65&nbsp;16&nbsp;54&nbsp;99</p>
+                    <p>Localisation : Montereau-Fault-Yonne (Seine-et-Marne) &mdash; mobilité Île-de-France, télétravail possible.</p>
+                    <p>Disponibilité : stage de 6 semaines du 18 mai au 26 juin 2026.</p>
+                    <p><a href="AP-SIO11-DJEDIDI-LettreDeMotivation.pdf" target="_blank" rel="noreferrer" class="btn btn-light btn-xl">Télécharger mon CV</a></p>
+                </div>
+            </div>
+        </section>
 <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <h4 class="text-uppercase mb-4">Localisation</h4>
                         <p class="lead mb-0">
-                            2215 John Daniel Drive
+                            Montereau-Fault-Yonne (77)
                             <br />
-                            Clark, MO 65243
+                            Mobilité Île-de-France &amp; télétravail
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                        <h4 class="text-uppercase mb-4">Réseaux</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:soheib.djedidi28@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/soheib-djedidi" target="_blank" rel="noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
                     </div>
                     <!-- Footer À propos Text-->
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">À propos Freelancer</h4>
+                        <h4 class="text-uppercase mb-4">En quelques mots</h4>
                         <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">DJEDIDI Soheib</a>
-                            .
+                            Étudiant en BTS SIO SISR, motivé pour contribuer à des projets systèmes &amp; réseaux et continuer à apprendre aux côtés d'une équipe passionnée.
                         </p>
                     </div>
                 </div>
@@ -136,200 +262,7 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
-        </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="container"><small>Copyright &copy; Soheib DJEDIDI 2024</small></div>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
